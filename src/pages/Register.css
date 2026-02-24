@@ -1,0 +1,78 @@
+/* Register.css */
+.register-page {
+  min-height: 100vh;
+  background-color: #f3f2f1; /* Light Microsoft-style gray */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.auth-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid #e1dfdd;
+  position: sticky;
+  top: 0;
+}
+
+.app-logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #0078d4; /* Microsoft Blue */
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 12px;
+}
+
+/* Styling the Clerk buttons (which render as buttons inside the wrappers) */
+.btn-primary {
+  background-color: #0078d4;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+.btn-primary:hover {
+  background-color: #005a9e;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: #323130;
+  border: 1px solid #8a8886;
+  padding: 8px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn-secondary:hover {
+  background-color: #edebe9;
+}
+
+.user-control {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: #323130;
+  font-weight: 500;
+}
+
+.register-content {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.register-content h1 {
+  font-size: 2.5rem;
+  color: #201f1e;
+  margin-bottom: 10px;
+}
