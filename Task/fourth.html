@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Debounce Only Test</title>
+    <style>
+        body { font-family: sans-serif; padding: 40px; text-align: center; }
+        .search-container { max-width: 400px; margin: 0 auto; border: 2px solid #eee; padding: 20px; border-radius: 12px; }
+        input { width: 90%; padding: 12px; border-radius: 6px; border: 1px solid #ccc; font-size: 16px; }
+        #status { margin-top: 15px; font-style: italic; min-height: 20px; }
+        .counter-box { font-size: 24px; margin-top: 20px; color: #007bff; }
+    </style>
+</head>
+<body>
+
+    <div class="search-container">
+        <h2>Search with Debounce</h2>
+        <input type="text" id="userInput" placeholder="Search products...">
+        
+        <div id="status">Waiting for input...</div>
+        
+        <div class="counter-box">
+            API Calls Made: <span id="debounceCount">0</span>
+        </div>
+    </div>
+
+    <script src="fourth.js" defer></script>
+</body>
+</html>
